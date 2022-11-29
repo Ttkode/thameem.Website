@@ -3,6 +3,8 @@
 :root {
     --primarycolor: red;
     --cool-color: #fecaca;
+    --color-cool: #991b1b;
+
 
 }
 
@@ -14,6 +16,7 @@ body {
 hr {
     margin: 2rem 0.5rem;
 }
+
 
 .container {
     padding-left: 1rem;
@@ -34,15 +37,15 @@ hr {
 }
 
 .primary-link {
-    background-color: rgb(80, 68, 68);
+    background-color: var(--color-cool);
     border-radius: 0.5rem;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 .secondary-link {
-    background-color: rgb(80, 68, 68);
+    background-color: var(--cool-color);
     border-radius: 0.5rem;
-    color: rgb(255, 255, 255);
+    color: red;
 }
 
 .list-nobullet {
@@ -52,6 +55,10 @@ hr {
 .list-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.jjj {
+    text-align: center;
 }
 
 .navigation {
@@ -67,6 +74,7 @@ hr {
 .nav-brand {
     color: white;
     font-weight: bold;
+    font-size: x-large;
 }
 
 
@@ -81,6 +89,7 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    font-size: large;
 }
 
 .hero {
@@ -100,15 +109,24 @@ hr {
 }
 
 .hero .hero-heading .hero-inverted {
-    color: var(--cool-color)
+    color: var(--color-cool)
 }
 
 .section {
     padding: 0.5rem;
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin: 20px;
+    
+    
 }
 
 .section h3{
     text-align: center;
+    text-decoration: solid;
     padding: 0.5rem;
 }
 
@@ -128,8 +146,17 @@ hr {
     
 }
 
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+
 .footer .link {
     color: white;
     
 }
+
+
 
