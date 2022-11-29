@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    margin: 1px;
 }
 
 hr {
@@ -21,7 +22,7 @@ hr {
 
 .container-centre {
     color: red;
-    max-width: 200px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -101,3 +102,34 @@ hr {
 .hero .hero-heading .hero-inverted {
     color: var(--cool-color)
 }
+
+.section {
+    padding: 0.5rem;
+}
+
+.section h3{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.offw {
+    background-color: var(--cool-color);
+}
+
+.footer {
+    background-color: var(--primarycolor);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+
+.footer .link {
+    color: white;
+    
+}
+
