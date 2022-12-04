@@ -171,5 +171,18 @@ hr {
     
 }
 
+.blog-heading {
+    text-align: center;
+    font-family: papyrus;
+    text-decoration: underline;
+}
+
+.blog-style {
+    font-size: large;
+    font-style: oblique;
+    word-spacing: 0.2cm;
+    display: block;
+    padding: 0.2rem 3rem 0.2rem 3rem;
+}
 
 
