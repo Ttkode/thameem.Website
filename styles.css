@@ -58,9 +58,13 @@ hr {
 }
 
 .list-inline {
-    display: inline;
+    display: inline-block;
     padding: 0rem 0.5rem;
     align-self: center;
+}
+
+.margin-md {
+    margin: 3% auto;
 }
 
 
@@ -140,7 +144,7 @@ hr {
 
 .footer {
     background-color: var(--primarycolor);
-    padding: 2rem 2rem 2rem 2rem ;
+    padding: 2rem 1rem ;
     text-align: center;
     color: white;
     margin-top: 2rem;
@@ -150,8 +154,7 @@ hr {
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
-    text-align: center;
-    margin-left: 2rem;
+    
 }
 
 
