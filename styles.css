@@ -41,6 +41,7 @@ hr {
 }
 
 .primary-link {
+    font-size: medium;
     background-color: var(--color-cool);
     border-radius: 0.5rem;
     color: rgb(255, 255, 255);
@@ -48,6 +49,7 @@ hr {
 }
 
 .secondary-link {
+    font-size: medium;
     color: rgb(8, 8, 8);
     border-radius: 0.5rem;
     border: 1px solid black;
@@ -59,13 +61,12 @@ hr {
 
 .list-inline {
     display: inline-block;
-    padding: 0rem 0.5rem;
+    padding: 1rem 0.5rem;
     align-self: center;
 }
 
-.margin-md {
-    margin: 3% auto;
-}
+
+
 
 
 
