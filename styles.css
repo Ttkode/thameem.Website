@@ -29,15 +29,15 @@ hr {
 .container-centre {
     
     color: #ffffff;
-    max-width: 1000px;
+    max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 
 .link {
     text-decoration: none;
-    padding: 0.3rem 1rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    
 }
 
 .primary-link {
@@ -72,21 +72,20 @@ hr {
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    
 }
 
 .nav-brand {
     color: white;
     font-weight: bold;
     font-size: x-large;
-    margin-left: 2rem;
+    
 }
 
 
 .navigation .nav-pills {
     text-align: right;
-    margin-left: 5rem;
+   
 } 
 
 
@@ -121,13 +120,9 @@ hr {
 }
 
 .section {
-    padding: 0.5rem;
+    padding: 2rem;
     text-align: center;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    margin: 20px;
+  
     
     
 }
@@ -135,26 +130,20 @@ hr {
 .section h3{
     
     text-align: center;
-    text-decoration: solid;
-    padding: 0.5rem;
+    
 }
 
 .offw {
     background-color: var(--cool-color);
-    border-bottom: 2rem;
     text-align: center;
-    padding: 2rem;
 }
 
 .footer {
     background-color: var(--primarycolor);
-    padding: 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem ;
     text-align: center;
     color: white;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    margin-top: 2rem;
     
 }
 
