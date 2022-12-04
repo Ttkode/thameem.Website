@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 :root {
-    --primarycolor: red;
-    --cool-color: #fecaca;
+    --primarycolor: #fb7185;
+    --cool-color: #f87171;
     --color-cool: #991b1b;
+    --color-uno: #f472b6;
 
 
 }
@@ -11,6 +12,7 @@
 body {
     font-family: 'Lato', sans-serif;
     margin: 1px;
+    background-color: #7c7c7c;
 }
 
 hr {
@@ -19,12 +21,14 @@ hr {
 
 
 .container {
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 2rem;
+    font-size: larger;
 }
 
 .container-centre {
-    color: red;
+    
+    color: #ffffff;
     max-width: 1000px;
     margin: auto;
 }
@@ -39,13 +43,14 @@ hr {
 .primary-link {
     background-color: var(--color-cool);
     border-radius: 0.5rem;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .secondary-link {
-    background-color: var(--cool-color);
+    color: rgb(8, 8, 8);
     border-radius: 0.5rem;
-    color: red;
+    border: 1px solid black;
 }
 
 .list-nobullet {
@@ -55,11 +60,11 @@ hr {
 .list-inline {
     display: inline;
     padding: 0rem 0.5rem;
+    align-self: center;
 }
 
-.jjj {
-    text-align: center;
-}
+
+
 
 .navigation {
     background-color: var(--primarycolor);
@@ -75,11 +80,13 @@ hr {
     color: white;
     font-weight: bold;
     font-size: x-large;
+    margin-left: 2rem;
 }
 
 
 .navigation .nav-pills {
     text-align: right;
+    margin-left: 5rem;
 } 
 
 
@@ -104,12 +111,13 @@ hr {
 }
 
 .hero .hero-heading {
+    margin-left: 3rem;
     text-align: center;
-    color: red;
+    color: var(--color-cool);
 }
 
 .hero .hero-heading .hero-inverted {
-    color: var(--color-cool)
+    color: var(--cool-color)
 }
 
 .section {
@@ -125,6 +133,7 @@ hr {
 }
 
 .section h3{
+    
     text-align: center;
     text-decoration: solid;
     padding: 0.5rem;
@@ -132,11 +141,14 @@ hr {
 
 .offw {
     background-color: var(--cool-color);
+    border-bottom: 2rem;
+    text-align: center;
+    padding: 2rem;
 }
 
 .footer {
     background-color: var(--primarycolor);
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     text-align: center;
     color: white;
     border-bottom-left-radius: 1rem;
@@ -150,6 +162,7 @@ hr {
     font-weight: bold;
     font-size: large;
     text-align: center;
+    margin-left: 2rem;
 }
 
 
