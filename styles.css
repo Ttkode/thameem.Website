@@ -53,6 +53,7 @@ hr {
     color: rgb(8, 8, 8);
     border-radius: 0.5rem;
     border: 1px solid black;
+    text-align: center;
 }
 
 .list-nobullet {
@@ -161,6 +162,7 @@ hr {
 
 .footer .link {
     color: white;
+    text-align: center;
     
 }
 
