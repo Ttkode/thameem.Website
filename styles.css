@@ -10,20 +10,15 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    margin: 1px;
+    font-family: 'Noto sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
     background-color: #7c7c7c;
 }
 
-hr {
-    margin: 2rem 0.5rem;
-}
-
-
 .container {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: large;
+    padding: 0rem 1rem;
+   
 }
 
 .container-centre {
@@ -41,7 +36,6 @@ hr {
 }
 
 .primary-link {
-    font-size: medium;
     background-color: var(--color-cool);
     border-radius: 0.5rem;
     color: rgb(255, 255, 255);
@@ -64,13 +58,9 @@ hr {
 .list-inline {
     display: inline-block;
     padding: 1rem 0.5rem;
+    margin: 0px;
     align-self: center;
 }
-
-
-
-
-
 
 
 .navigation {
@@ -181,5 +171,9 @@ hr {
     display: block;
     padding: 0.2rem 10rem 0.2rem 10rem;
 }
+
+@media only screen and (max-width: 600px) 
+    
+
 
 
